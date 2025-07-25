@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Poetry</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: #ecf0f1;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .poem-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+        .poem-verse {
+            background-color: #ecf0f1;
+            padding: 1em;
+            border-radius: 4px;
+            margin-bottom: 1em;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>گنجینهٔ شعر فارسی</h1>
+    </header>
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#ghazal">غزل</a>
+        <a href="#about">درباره</a>
+    </nav>
+    <div class="container" id="home">
+        <img class="poem-image" src="data:image/jpeg;base64,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" alt="Persian Poetry">
+        <div class="poem-verse">
+          <h3>
+            شعری از دکتر رامین عرب نژاد
+          </h3>
+            <pre style=" text-align: right;">
+                دست هایت روسری را از وسط تا میکند
+                این مثلث در مربع سخت غوغا میکند 
+                مثل یک منشور در برخورد با نور سفید
+                روسری رو سر تو رنگ پیدا میکند
+                سبز، قرمز، سرمه ای، فرقی ندارد رنگ های
+                صورت تو روسری ها را چه زیبا میکند
+                میشود هر تار مو یک شب ولی یک روسری
+                این همه شب را چطوری در دلش جا میکند
+            باد می‌ریزد به دورت حسرت تلخ مرا
+باد روزی روسری را از سرت وا می‌کند
+           </pre>
+        </div>
+        <div class="poem-verse" id="ghazal">
+            
+            <h3> خاطره خوانش شعر شادروان پوهنمل دکتر محمد ناصر رهیاب</h3>
+            ‌<h4> همایش رستم و سهراب</h4>
+            <h5>دانشکده ادبیات پارسی و علوم بشری</h5>
+            <img src=""
+
+ 
+            <pre>
+
+                آنی تو که از نام تو میبارد عشق
+                 از نامه و پیغام تو میبارد عشق
+                 عاشق گردد هر که به کویت گذرد
+                 آری ز در و بام تو میبارد عشق
+            </pre>
+                
+            
+        </div>
+        <p id="about">در این صفحه کوتاه به چند بیت از شعر فارسی اشاره کردیم تا گوشه‌ای از زیبایی زبان پارسی را نشان دهیم.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 گنجینهٔ شعر فارسی</p>
+    </footer>
+</body>
